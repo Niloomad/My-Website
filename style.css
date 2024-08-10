@@ -1,0 +1,114 @@
+body {
+  background-color: #A0937D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#About-me.sec-background {
+  background-color: #E7D4B5 !important;
+  color: darkslategray;
+}
+
+.third-background {
+  background-color: #F6E6CB;
+  color: darkslategray;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: white;
+  font-family: "Sacramento", cursive;
+  font-size: 1rem; 
+}
+
+.profile-img {
+  height: 150px;
+  width: 150px; 
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.My-name {
+  font-size: 2.5rem; 
+  font-family: "Sacramento", cursive;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.My-title {
+  font-size: 1.25rem; 
+  color: white;
+}
+
+.about {
+  font-size: 1.75rem; 
+  font-family: "Sacramento", cursive;
+  margin-bottom: 20px;
+}
+
+.skills {
+  font-size: 1.25rem; 
+  color: #4b4f4d;
+  font-family: "Sacramento", cursive;
+  margin-top: 50px;
+}
+
+.works {
+  font-size: 1.75rem; 
+  font-family: "Sacramento", cursive;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#contact h4 {
+  color: white !important;
+  font-size: 1.5rem; 
+  font-family: "Sacramento", cursive;
+}
+
+.contact-me .col-lg-6.mx-auto.mb-4 {
+  font-family: "Sacramento", cursive;
+  color: darkslategrey;
+  font-size: 1rem; 
+}
+
+.footer-link {
+  color: white;
+  font-size: 1.5rem; 
+}
+
+.footer-link img {
+  height: 40px; 
+  width: auto;
+}
+
+@media (max-width: 1200px) {
+  .container { padding: 0 10px; }
+  .My-name { font-size: 2rem; }
+  .about, .works { font-size: 1.5rem; }
+}
+
+@media (max-width: 992px) {
+  .profile-img { width: 120px; }
+  .My-name { font-size: 1.75rem; }
+  .My-title, .about, .skills, .works { font-size: 1rem; }
+}
+
+@media (max-width: 768px) {
+  .container { padding: 0 5px; }
+  .profile-img { width: 100px; }
+  .My-name { font-size: 1.5rem; }
+  .My-title { font-size: 0.875rem; }
+  .about, .skills, .works { font-size: 0.875rem; }
+  .footer-link img { height: 30px; }
+}
+
+@media (max-width: 576px) {
+  .nav-link { font-size: 0.875rem; }
+  .My-name { font-size: 1.25rem; }
+  .My-title, .about, .skills, .works { font-size: 0.75rem; }
+}
